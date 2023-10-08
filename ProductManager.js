@@ -1,8 +1,12 @@
+const fs = require('fs');
+
+
 class ProductManager {
     #priceRevenue
-    constructor() {
-
+    constructor(path) {
+        this.path = path;
         this.products = []
+
         this.#priceRevenue = 0.15
 
     }
@@ -15,25 +19,31 @@ class ProductManager {
 
     }
 
-    eliminarcode = (code) => {
-        
-        return this.products.splice(code, 1)
 
-    }
 
-    //muestro los priductos
-    getProducts = () => {
 
-        console.log(this.products)
-
-    }
+    //creo el producto
 
     //agrego 1 producto
-    getAddProducts = (title, description, price, thumbnail, code, stock) => {
+    getAddProducts = async (title, description, price, thumbnail, code, stock) => {
+
+
+        const getProducts = await this.getProducts();
+
+        const product = {
+            id: (this.products.length - 1) + 1,
+            title,
+            description,
+            price,
+            thumbnail,
+            code,
+            stock
+        }
+
 
         //Valido que no se repita el codigo
 
-        this.validateCode(code) && console.log("El producto ya existe")
+        if (this.validateCode(code)) return console.log("El producto ya existe")
 
 
 
@@ -41,58 +51,147 @@ class ProductManager {
 
         if (!title || !description || !price || !thumbnail || !code || !stock) {
 
-            return this.eliminarcode(code)
+            return console.log("falta parametro")
 
         }
 
-this.#priceRevenue
+        getProducts.push(product)
 
-        const product = {
-            id: this.products.length + 1,
-            title,
-            description,
-            price:this.#priceRevenue +1,
-            thumbnail,
-            code,
-            stock
+        try {
+
+            await fs.promises.writeFile(this.path, JSON.stringify(getProducts, null, "\t"));
+
+        }
+        catch (error) {
+
+            return error
         }
 
 
-        //Agrego el producto al array
-        this.products.push(product)
+
+    }
+    //con este metodo  lo llamamos en en getaddproducts para que me lea si existe un json y si es asi me devuelve parseado la informacion
+
+    getProducts = async () => {
+        try {
+
+            const products = await fs.promises.readFile(this.path, 'utf-8');
+
+            return this.products = JSON.parse(products)
+
+        } catch (error) {
+
+            return this.products;
+        }
 
 
     }
 
 
-    //creo el producto
+
 
 
     //Muestro 1 producto buscando el id dentro del array
-    getProductById = (id) => {
-        const producto = this.products.find((producto) => producto.id == id);
+    getProductById = async (id) => {
+
+        const getProducts = await this.getProducts();
+
+        const producto = getProducts.find((producto) => producto.id == id);
 
         producto ? console.log(producto) : console.log("Not Found")
 
     }
 
 
+
+    // busco por id y  modifico 
+
+    updateProduct = async (id, title, description, price, thumbnail, code, stock) => {
+
+        const getProducts = await this.getProducts();
+
+
+        // const productss = await fs.promises.readFile(this.path, 'utf-8');
+
+
+        const producto = getProducts.filter((producto) => producto.id == id);
+
+
+
+
+
+        for (const product of producto) {
+
+            const productModified = {
+                id: product.id,
+                title: title,
+                description: description,
+                price: price,
+                thumbnail: thumbnail,
+                code: code,
+                stock: stock
+            }
+            //busco en el array y modifico agregandole el producto modificado
+
+            this.products[id] = productModified
+
+            try {
+                const productModifiedJson = fs.promises.writeFile(this.path, JSON.stringify(this.products, null, "\t"))
+
+            } catch (error) {
+                return console.log(error)
+
+            }
+
+
+
+
+        }
+
+
+    }
+
+    deletProduct = async (id) => {
+
+        const getProducts = await this.getProducts();
+
+        const producto = getProducts.filter((producto) => producto.id !== id);
+
+        this.products = producto
+
+        try {
+
+            const productModifiedJson = fs.promises.writeFile(this.path, JSON.stringify(this.products, null, "\t"))
+
+        } catch (error) {
+
+            console.log(error)
+
+        }
+
+
+
+
+
+    }
+
+
 }
 
-//creo la instancia de la clase
-const productManager = new ProductManager()
-console.log(productManager)
 
-//Realizo las pruebas
-productManager.getProducts()
-productManager.getAddProducts("producto prueba", "Este es un producto prueba", 200, "Sin imagen", "abc123", 25)
- productManager.getProducts()
- productManager.getAddProducts("producto prueba", "Este es un producto prueba", 200, "Sin imagen", "abc123", 25)
- productManager.getAddProducts()
-productManager.getAddProducts("producto prueba", "Este es un producto prueba", 200, "Sin imagen", "abc124", 25)
-productManager.getProducts()
- productManager.getProductById(1)
- productManager.getProductById(2)
- productManager.getProductById(4)
- productManager.getProductById(4)
-//"producto prueba", "", 200, "Sin imagen", "abc124", 25  node ProductManager.js
+
+
+
+//creo la instancia de la clase
+const productManager = new ProductManager('./products.json')
+productManager.getAddProducts("producto prueba", "dfdfdf", 200, "Sin imagen", "abc12dd3", 25)
+productManager.getAddProducts("producto prueba", "dfdfdf", 200, "Sin imagen", "abc12ddxx3", 25)
+
+//productManager.updateProduct(1,"producto nuevo","producto nuevo", 200, "Sin imagen", "sssssss", 25)
+
+// productManager.deletProduct(0)
+
+//Re//alizo las pruebas
+
+
+// node ProductManager.js
