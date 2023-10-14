@@ -1,5 +1,9 @@
-const fs = require('fs');
 
+
+
+import fs from 'fs'
+
+//import fs from 'fs'
 
 class ProductManager {
     #priceRevenue
@@ -25,19 +29,21 @@ class ProductManager {
     //creo el producto
 
     //agrego 1 producto
-    getAddProducts = async (title, description, price, thumbnail, code, stock) => {
+    addProducts = async (sexo, description, code) => {
 
 
         const getProducts = await this.getProducts();
 
         const product = {
+
             id: (this.products.length - 1) + 1,
-            title,
-            description,
-            price,
-            thumbnail,
-            code,
-            stock
+
+            sexo: sexo,
+            description: description,
+            // price: price,
+            //  thumbnail: thumbnail,
+            code: code,
+            //    stock: stock
         }
 
 
@@ -49,7 +55,7 @@ class ProductManager {
 
         //Valido que haya ingresadotodos los campos ya que son obligatorios
 
-        if (!title || !description || !price || !thumbnail || !code || !stock) {
+        if (!sexo || !description || !code) {
 
             return console.log("falta parametro")
 
@@ -67,17 +73,23 @@ class ProductManager {
             return error
         }
 
-
-
     }
+    
     //con este metodo  lo llamamos en en getaddproducts para que me lea si existe un json y si es asi me devuelve parseado la informacion
 
     getProducts = async () => {
         try {
+            //verifico existencia
+            if (fs.existsSync(this.path, 'utf-8')) {
 
-            const products = await fs.promises.readFile(this.path, 'utf-8');
+                const products = await fs.promises.readFile(this.path, 'utf-8');
 
-            return this.products = JSON.parse(products)
+
+                return this.products = JSON.parse(products)
+
+            }
+
+
 
         } catch (error) {
 
@@ -96,9 +108,20 @@ class ProductManager {
 
         const getProducts = await this.getProducts();
 
+
         const producto = getProducts.find((producto) => producto.id == id);
 
-        producto ? console.log(producto) : console.log("Not Found")
+
+        if (producto) {
+
+            return producto
+
+        } else {
+
+            console.log("Not Found")
+        }
+
+        // producto ? console.log(producto) : console.log("Not Found")
 
     }
 
@@ -106,7 +129,7 @@ class ProductManager {
 
     // busco por id y  modifico 
 
-    updateProduct = async (id, title, description, price, thumbnail, code, stock) => {
+    updateProduct = async (id, sexo, description, thumbnail, code) => {
 
         const getProducts = await this.getProducts();
 
@@ -124,12 +147,12 @@ class ProductManager {
 
             const productModified = {
                 id: product.id,
-                title: title,
+                sexo: sexo,
                 description: description,
-                price: price,
-                thumbnail: thumbnail,
+                // price: price,
+                //  thumbnail: thumbnail,
                 code: code,
-                stock: stock
+                //    stock: stock
             }
             //busco en el array y modifico agregandole el producto modificado
 
@@ -183,9 +206,13 @@ class ProductManager {
 
 
 //creo la instancia de la clase
-const productManager = new ProductManager('./products.json')
-productManager.getAddProducts("producto prueba", "dfdfdf", 200, "Sin imagen", "abc12dd3", 25)
-productManager.getAddProducts("producto prueba", "dfdfdf", 200, "Sin imagen", "abc12ddxx3", 25)
+//const productManager = new ProductManager('./products.json')
+// productManager.addProducts("m", "ema",   "abc12dd3")
+// productManager.addProducts("f", "daina",   "a33bc12dd3")
+// productManager.addProducts("f", "flor",   "a33bcccc12dd3")
+// productManager.addProducts("m", "eze",   "a33bcdfff12dd3")
+//         productManager.getProductById(2) 
+// productManager.getProducts()
 
 //productManager.updateProduct(1,"producto nuevo","producto nuevo", 200, "Sin imagen", "sssssss", 25)
 
@@ -195,3 +222,11 @@ productManager.getAddProducts("producto prueba", "dfdfdf", 200, "Sin imagen", "a
 
 
 // node ProductManager.js
+
+
+export default ProductManager;
+
+
+
+
+
