@@ -1,73 +1,31 @@
-import express, { json } from 'express'
-import productManager from './ProductManager.js'
+import express from 'express'
+import prouctRoutes from './router/products.routes.js'
 
 
+import routepets from './router/carts.routes.js'
 
 
 const app = express()
 
 
 
+//const newPoductManager = new productManager('./products.json')
+
+app.use(express.json())
+
+app.use(express.urlencoded({ extended: true }))
+app.use(express.static('./src/public'))
 
 
-
-app.get('/products', async (req, res) => {
- try {
-
-  const newPoductManager = new productManager('./products.json')
-
-  const produ = await newPoductManager.getProducts()
-
-  const limit = req.query.limit
-
-  if (limit) {
-
-    const products = produ.splice(0, limit)
-
-    return res.send(products)
-
-  }
-
-  return res.send(produ)
-  
- } catch (error) {
-
-  console.log(error)
-  
- }
- 
-
-})
-
-
-
-app.get('/products/:pid', async (req, res) => {
-
-try {
-
-  const newPoductManager = new productManager('./products.json')
-
-  const produ = await newPoductManager.getProducts()
-
-  const productfilter = req.params.pid
-
-  const productfiltered = produ.filter((e) => e.id == JSON.parse(productfilter))
-
-  res.send(...productfiltered)
-  
-} catch (error) {
-
-  console.log(error)
-  
-}
-
-})
-
+app.use('/api/products' ,prouctRoutes)// esta es la que no me lee
+app.use('/api/carts', routepets)
 
 
 
 app.listen(8080, () => {
+
   console.log("servidor corriendo ")
+
 })
 
 
