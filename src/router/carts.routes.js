@@ -34,8 +34,11 @@ router.post('/', async (req, res) => {
     }
 })
 
+
+//esta ruta el primero dice que id vamos a modificar el cid y el pid es el id dentro de products el cual agrega quantiti cada vez que machea
+
 router.post('/:cid/product/:pid', async (req, res) => {
-    
+    console.log(req.params)
     try{
         const cid = parseInt(req.params.cid)
 
@@ -46,6 +49,7 @@ router.post('/:cid/product/:pid', async (req, res) => {
         res.send(product)
 
     } catch (err) {
+        
         res.status(500).send("Error al agregar producto al carrito" + err)
     }
 })

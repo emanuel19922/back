@@ -58,6 +58,7 @@ getCartById = async (cid) => {
     try {
         const data = await fs.promises.readFile(this.path, 'utf-8')
         this.carts = JSON.parse(data)
+        
         const carrito = this.carts.find(cart => cart.id == cid)
 
         return carrito ? carrito : 'Not found'
@@ -67,22 +68,33 @@ getCartById = async (cid) => {
 }
 
 addProductInCart = async (cid, pid) => {
+
     try {
+
         const data = await fs.promises.readFile(this.path, 'utf-8')
+
         this.carts = JSON.parse(data)
+
         const carrito = this.carts.find(cart => cart.id === cid)
-        const prod = await productManager.getProductById(pid)
 
-        if (prod === 'Not found') return 'Producto not found'
-        if (!carrito) return 'Carrito not found'
+     
 
-        const product = carrito.productos.find(p => p.pid === pid)
+ // const prod = await productManager.getProductById(pid)
+
+   // if (prod === 'Not found') return 'Producto not found'
+
+    //if (!carrito) return 'Carrito not found'
+
+       const product = carrito.productos.find(p => p.pid === pid)
+    
 
         if (!product) {
-            carrito.productos.push({ pid: pid, quantity: 1 })
+         
+         carrito.productos.push({ pid: pid, quantity: 1 })
         } else {
             product.quantity++
         }
+       
 
         await fs.promises.writeFile(this.path, JSON.stringify(this.carts, null, '\t'))
         return 'Se agrego el producto correctamente'
