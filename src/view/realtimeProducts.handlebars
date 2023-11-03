@@ -1,0 +1,45 @@
+
+<div id="containerPoducts">
+    {{!-- {{#each products}}
+    {{this.id}}
+    <br>
+    {{this.title}}
+    <br>
+    {{this.description}}
+    <br>
+    {{this.price}}
+    <br>
+    {{this.thumbnail}}
+    <br>
+    {{this.code}}
+    <br>
+    {{this.stock}}
+    <br>
+    <br>
+    {{/each}} --}}
+
+</div>
+
+<form id="form" >
+
+    <input name="title" placeholder="title" id="title">
+    <br>
+    <input name="description" placeholder="description" id="description">
+    <br>
+    <input name="thumbnail" placeholder="thumbnail" id="thumbnail">
+    
+    <br>
+    <input name="code" placeholder="code" id="code">
+    <br>
+    <input name="stock" placeholder="stock" id="stock" >
+    <br>
+    <input name="price" placeholder="price" id="price">
+    <br>
+ 
+    <button  id="button" type="submit" >enviar</button>
+</form>
+
+
+
+<script src="/socket.io/socket.io.js"></script>
+    <script src="/static/js/index.js"></script>

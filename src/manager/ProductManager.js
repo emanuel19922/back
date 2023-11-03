@@ -24,6 +24,10 @@ class ProductManager {
 
     }
 
+    generateId = async () => {
+        const products = await this.getProducts()
+        return products.length === 0 ? 1 : products[products.length - 1].id + 1
+    }
 
 
 
@@ -37,7 +41,7 @@ class ProductManager {
 
         const product = {
 
-            id: (this.products.length - 1) + 1,
+            id: await this.generateId(),
             title: products.title,
             description: products.description,
             price: products.price,
@@ -48,10 +52,10 @@ class ProductManager {
 
         }
 
-        //Valido que no se repita el codigo
-       if (this.validateCode(products.code)) return console.log("El producto ya existe")
+        //  Valido que no se repita el codigo
+        if (this.validateCode(products.code)) return console.log("El producto ya existe")
 
-        //Valido que haya ingresadotodos los campos ya que son obligatorios
+        //  Valido que haya ingresadotodos los campos ya que son obligatorios
 
         if (!products.title || !products.description || !products.code) {
 
@@ -101,7 +105,7 @@ class ProductManager {
     //Muestro 1 producto buscando el id dentro del array
     getProductById = async (id) => {
 
-     // llamo a get products y devuelvo lo que esta en el json 
+        // llamo a get products y devuelvo lo que esta en el json 
         const getProducts = await this.getProducts();
 
 
@@ -125,12 +129,12 @@ class ProductManager {
 
     // busco por id y  modifico 
 
-    updateProduct = async (id, products) => { 
+    updateProduct = async (id, products) => {
 
-          // llamo a get products y devuelvo lo que esta en el json 
+        // llamo a get products y devuelvo lo que esta en el json 
 
         const getProducts = await this.getProducts();
-       
+
         const productModified = {
 
             id: id,
@@ -160,26 +164,19 @@ class ProductManager {
 
     deletProduct = async (id) => {
 
-        const getProducts = await this.getProducts();
-
-        const producto = getProducts.filter((producto) => producto.id !== id);
-
-    this.products = producto
-
         try {
+            const data = await fs.promises.readFile(this.path, 'utf-8')
+            this.products = JSON.parse(data)
+            const productos = this.products.filter(product => product.id !== id)
 
-            const productModifiedJson = fs.promises.writeFile(this.path, JSON.stringify(this.products, null, "\t"))
-
-        } catch (error) {
-
-            console.log(error)
-
+            await fs.promises.writeFile(this.path, JSON.stringify(productos, null, '\t'))
+            return {
+                status: "Se elimino el producto correctamente",
+                res: productos
+            }
+        } catch (err) {
+            return err
         }
-
-
-
-
-
     }
 
 

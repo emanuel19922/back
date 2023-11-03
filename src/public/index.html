@@ -1,11 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    <h1>holaaaaaa</h1>
+    <h1>
+      
+        <input id="menssage" name="email">
+        <button id='button' name="submit">enviar</button>
+
+    </h1>
+    <div id="div">
+
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        const name = prompt("name")
+        const socket = io()
+        
+        socket.emit('name', name)
+
+        document.querySelector('#button').onclick = () => {
+
+            const value = document.querySelector('#menssage').value
+
+            socket.emit('conection', `[name:${name}]: ${value}`)
+           
+        }
+
+        socket.on('mjsalresto',data=>{
+
+      
+            document.querySelector('#div').innerHTML +=` <p>${data}</p>`
+        })
+
+        // socket.on('nameus',data2 =>{
+
+        //     document.querySelector('#div').innerHTML +=` <p>${data2}</p>`
+
+        // })
+       
+      
+
+
+    </script>
 </body>
+
 </html>

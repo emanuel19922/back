@@ -1,6 +1,7 @@
 import { Router } from "express";
-import { uploader } from "../utils.js";
+import { uploader } from "../multer.utils.js";
 import productManager from '../manager/ProductManager.js'
+
 
 
 const router = Router()
@@ -62,10 +63,11 @@ router.post('/', uploader.single('thumbnail'),async  (req, res) => {
     // }
   
     const productsBody = req.body
+  
 
     const products = await newPoductManager.addProducts(productsBody)
   
-    res.send("carga exitosa")
+    res.send(products)
   
     
   } catch (error) {
@@ -106,6 +108,7 @@ router.delete('/:id', async (req, res) => {
       const id = parseInt(req.params.id)
 
       const productEliminated = await newPoductManager.deletProduct(id)
+      console.log(productEliminated)
 
       res.send(productEliminated)
   } catch (err) {
