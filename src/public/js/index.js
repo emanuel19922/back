@@ -13,9 +13,12 @@ form.addEventListener('submit', async (e) => {
         description: document.querySelector('#description').value,
         price: document.querySelector('#price').value,
         code: document.querySelector('#code').value,
-        thumbnail: document.querySelector('#thumbnail').value,
+      //  thumbnail: document.querySelector('#thumbnail'),
         stock: document.querySelector('#stock').value,
     }
+    console.log(products.thumbnail)
+
+    
 
     //  usamos un fetch para poder enviar la data del formulario 
     //pega en el endpoint post de api
@@ -92,6 +95,7 @@ socket.on('allproducts', data => {
         containerPoducts.innerHTML += ` 
         <br>${element.id}<br>
            <br>${element.title}<br>
+           <img  src="${element.thumbnail}" alt="" />
            <br>${element.description}<br>
            <br>${element.price}<br>
            <br>${element.code}<br>

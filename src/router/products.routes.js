@@ -1,123 +1,89 @@
 import { Router } from "express";
 import { uploader } from "../multer.utils.js";
-import productManager from '../manager/ProductManager.js'
+import ProductManager from "../dao/manager/productManagerMongose.js";
 
-
+  import { socketServer } from "../app.js";
 
 const router = Router()
 
+const productManager = new ProductManager()
 
+router.get('/', async (req,res) =>{
+    try{
+        const limit = parseInt(req.query?.limit)
+        const products = await productManager.getProducts(limit)
+        res.send(products)
 
-const newPoductManager = new productManager()
+    } catch (err) {
+        res.status(500).send("Error al obtener los productos" + err)
+    }
+})
 
-router.get('/', async (req, res) => {
+router.get('/:id', async (req,res) => {
+    try{
+        const id = req.params.id
+        const producto = await productManager.getProductById(id)
+        res.send(producto)
+    } catch (err) {
+        res.status(500).send("Error al obtener el producto: " + err)
+    }
+})
 
+router.post('/', uploader.single('thumbnail'), async (req, res) => {
+    try{
 
+        // if(!req.file){
 
-  try {
+        //     res.status(500).send("No subiste la imagen")
+        // }
 
-    const limit = req.query.limit
+        const data = req.body
+        const filename = req.file.filename
 
-    const produ = await newPoductManager.getProducts(limit)
+        data.thumbnail = `http://localhost:8080/static/images/${filename}`
 
-    return res.send(produ)
-
-  } catch (error) {
-
-    console.log(error)
-
-  }
+        const producto = await productManager.getAddProducts(data)
+        const productos = await productManager.getProducts()
+        socketServer.emit('newProduct', productos)
+        res.json(producto)
+    } catch (err) {
+        res.status(500).send("Error al cargar el producto: " + err)
+    }
 
 })
 
+router.put('/:id', uploader.single('thumbnail'), async (req, res) => {
+    try{
+        const id = req.params.id
+        const data = req.body
 
-router.get('/:pid', async (req, res) => {
+        if(req.file){
+            const filename = req.file.filename
+            data.thumbnail = `http://localhost:8080/images/${filename}`
+        }
 
-  try {
+        const producto = await productManager.updateProduct(id, data)
 
-    const productfilter = req.params.pid
-
-    const produ = await newPoductManager.getProductById(productfilter)
-
-    if (!produ) return res.send("error")
-
-    res.send(produ)
-
-  } catch (error) {
-
-    console.log(error)
-
-  }
-
-})
-
-
-router.post('/', uploader.single('thumbnail'),async  (req, res) => {
-
-  try {
-
-    // if (!req.file) {
-
-    //   res.status(500).send("subir foto")
-     
-    // }
-  
-    const productsBody = req.body
-  
-
-    const products = await newPoductManager.addProducts(productsBody)
-  
-    res.send(products)
-  
-    
-  } catch (error) {
-     console.log(error)
-  }
-
- 
-
-})
-
-//modificacion
-router.put('/pid',  uploader.single('thumbnail'), async (req,res)=>{
-
-  try {
-
- const productsId = parseInt(req.query.id)
-
- const productPost = req.body
-
-  if(req.file){
-
- productPost.thumbnail = `http://localhost:8080/images/${req.file.originalname}`
-
- }
-
- const product = await  newPoductManager.updateProduct(productsId,productPost)
- 
-res.status(200).send("cargado")
-    
-  } catch (error) {
-    
-  }
-
+        res.send(producto)
+    } catch (err) {
+        res.status(500).send("Error al querer upgradear el producto: " + err)
+    }
 })
 
 router.delete('/:id', async (req, res) => {
-  try{
-      const id = parseInt(req.params.id)
+    try{
+        const id = req.params.id
 
-      const productEliminated = await newPoductManager.deletProduct(id)
-      console.log(productEliminated)
-
-      res.send(productEliminated)
-  } catch (err) {
-      res.status(500).send("Error al querer eliminar el producto: " + err)
-  }
+        const productEliminated = await productManager.deleteProduct(id)
+        socketServer.emit('deleteProduct', productEliminated.res)
+        res.json(productEliminated)
+    } catch (err) {
+        res.status(500).send("Error al querer eliminar el producto: " + err)
+    }
 })
 
+export default router
 
 
 
 
-export default router;

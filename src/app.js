@@ -6,6 +6,7 @@ import viewsRouter from './router/views.js'
 import register from './router/form.js'
 import __dirname from './utils.js'
 import { Server } from 'socket.io'
+import mongoose from "mongoose"
 
 const app = express()
 
@@ -31,8 +32,7 @@ app.use('/static', express.static(__dirname + '/public'))
 
 
 
-app.use('/api/products', prouctRoutes)// esta es la que no me lee
-
+app.use('/api/products', prouctRoutes)
 app.use('/api/carts', routepets)
 
 app.use('/home', viewsRouter)
@@ -41,11 +41,21 @@ app.use('/home', viewsRouter)
 
 
 
+const url ='mongodb+srv://emanuel01992:Emanuel@cluster0r2.d0kpl78.mongodb.net/'
+// aca nombre de la base de datos "mibasededatos"
+// y en user models va ell nombre de la colecion 
+mongoose.connect(url,{dbName:'ecommerce'})
+.then(()=>{
+    console.log("connect")
 
+})
+.catch(()=>{
+    console.log("Err")
+})
 
-const hhttpServer = app.listen(8082, () => console.log("servidor corriendo "))
+const hhttpServer = app.listen(8080, () => console.log("servidor corriendo "))
 
-const socketServer = new Server(hhttpServer)
+export const  socketServer = new Server(hhttpServer)
 
 socketServer.on('connection', socket => {
 
@@ -61,6 +71,15 @@ socketServer.on('connection', socket => {
 
 
 })
+
+
+
+
+
+
+
+
+
 
 
 
