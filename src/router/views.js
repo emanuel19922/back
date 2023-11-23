@@ -1,5 +1,6 @@
 import { Router } from "express";
 import productManager from '../dao/manager/ProductManager.js'
+import messageModel from '../dao/models/menssajes.model.js'
 import { uploader } from "../multer.utils.js";
 
 
@@ -51,7 +52,21 @@ router.get('/realTimeProducts', async (req, res) => {
 //       res.status(500).json({ error: error })
 //   }
 // })
+router.get('/chat', async (req, res) => {
 
+  try {
+
+      const messages = await messageModel.find().lean().exec()
+
+      res.render('chat', { messages })
+
+  } catch (err) {
+
+      console.log(err)
+      res.status(500).json({ status: 'error', error: err.message })
+
+  }
+})
 
 
 

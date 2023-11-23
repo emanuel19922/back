@@ -7,6 +7,7 @@ import register from './router/form.js'
 import __dirname from './utils.js'
 import { Server } from 'socket.io'
 import mongoose from "mongoose"
+import messageModel from './dao/models/menssajes.model.js'
 
 const app = express()
 
@@ -33,6 +34,7 @@ app.use('/static', express.static(__dirname + '/public'))
 
 
 app.use('/api/products', prouctRoutes)
+
 app.use('/api/carts', routepets)
 
 app.use('/home', viewsRouter)
@@ -57,7 +59,7 @@ const hhttpServer = app.listen(8080, () => console.log("servidor corriendo "))
 
 export const  socketServer = new Server(hhttpServer)
 
-socketServer.on('connection', socket => {
+socketServer.on('connection',async socket => {
 
 
 
@@ -66,6 +68,20 @@ socketServer.on('connection', socket => {
 
     socketServer.emit('allproducts', data)
 
+  })
+  let messages = (await messageModel.find()) ? await messageModel.find() : []
+
+  socket.broadcast.emit('alerta')
+
+  socket.emit('logs', messages)
+
+  socket.on('message', data => {
+
+      messages.push(data)
+
+      messageModel.create(messages)
+      
+      socketServer.emit('logs', messages)
   })
 
 
