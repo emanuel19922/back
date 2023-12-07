@@ -1,102 +1,84 @@
 import express from 'express'
-import prouctRoutes from './router/products.routes.js'
-import routepets from './router/carts.routes.js'
-import handlebars from 'express-handlebars'
-import viewsRouter from './router/views.js'
-import register from './router/form.js'
-import __dirname from './utils.js'
+import exphbs from 'express-handlebars'
+import mongoose from 'mongoose'
 import { Server } from 'socket.io'
-import mongoose from "mongoose"
-import messageModel from './dao/models/menssajes.model.js'
+import session from 'express-session'
+import MongoStore from 'connect-mongo'
+import { __dirname, PORT, MONGO_DB_NAME, MONGO_URI } from './utils.js'
+
+import messageModel from './dao/models/messages.model.js'
+import productsRouter from './routes/products.router.js'
+import cartsRouter from './routes/carts.router.js'
+import viewsProductsRouter from './routes/views.router.js'
+import sessionRouter from './routes/session.router.js'
 
 const app = express()
-
-
-app.engine('handlebars', handlebars.engine())
-app.set('views', __dirname + '/view')
-app.set('view engine', 'handlebars')
-
-
-
-
-
-//para que leea los metods post
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
+app.use(express.static(__dirname + '/public'))
 
+// Configuracion de Handlebars
+app.engine('.hbs', exphbs.engine({ extname: '.hbs' }))
+app.set('views', __dirname + '/views')
+app.set('view engine', '.hbs')
 
-
-
-//pagina estatica o principal en ruta principal sin / solo http://127.0.0.1:8080
-app.use('/static', express.static(__dirname + '/public'))
-
-
-
-
-app.use('/api/products', prouctRoutes)
-
-app.use('/api/carts', routepets)
-
-app.use('/home', viewsRouter)
-
-//app.use('/form', register)
-
-
-
-const url ='mongodb+srv://emanuel01992:Emanuel@cluster0r2.d0kpl78.mongodb.net/'
-// aca nombre de la base de datos "mibasededatos"
-// y en user models va ell nombre de la colecion 
-mongoose.connect(url,{dbName:'ecommerce'})
-.then(()=>{
-    console.log("connect")
-
-})
-.catch(()=>{
-    console.log("Err")
+// Configuracion de las sesiones en mongo
+const sessionStore = MongoStore.create({
+    mongoUrl: MONGO_URI,
+    dbName: 'MONGO_DB_NAME'
 })
 
-const hhttpServer = app.listen(8080, () => console.log("servidor corriendo "))
-
-export const  socketServer = new Server(hhttpServer)
-
-socketServer.on('connection',async socket => {
-
-
-
-  socket.on('productList', data => {
-
-
-    socketServer.emit('allproducts', data)
-
-  })
-  let messages = (await messageModel.find()) ? await messageModel.find() : []
-
-  socket.broadcast.emit('alerta')
-
-  socket.emit('logs', messages)
-
-  socket.on('message', data => {
-
-      messages.push(data)
-
-      messageModel.create(messages)
-      
-      socketServer.emit('logs', messages)
-  })
-
-
-
+sessionStore.on('error', (error) => {
+    console.error('Error en la conexión de almacenamiento de sesión:', error)
 })
 
+app.use(session({
+    store: sessionStore,
+    secret: 'secret',
+    // resave: true,
+    resave: true,
+    saveUninitialized: true
+}))
 
+// Routes
+app.get('/', (req, res) => res.render('index', { name: 'Backend' }))
+app.use('/api/products', productsRouter)
+app.use('/api/carts', cartsRouter)
+app.use('/products', viewsProductsRouter)
+app.use('/sessions', sessionRouter)
 
+// Permite realizar consultas incluso en campos no definidos en el esquema, cuando se establece en 'false' 
+mongoose.set("strictQuery", false)
 
+try {
+    await mongoose.connect(`${MONGO_URI}${MONGO_DB_NAME}`)
+    console.log("DB connected 😎")
+    
+    const httpServer = app.listen(PORT, () => console.log(`Server listening on port ${PORT} 🏃...`))
 
+    const io = new Server(httpServer)
+    app.set('socketio', io)
 
+    io.on('connection', async (socket) => {
+        socket.on('productList', (data) => {
+            console.log(data)
+            io.emit('updatedProducts', data)
+        })
+        socket.on('cartList', (data) => {
+            io.emit('updatedCarts', data)
+        })
 
+        let messages = (await messageModel.find()) ? await messageModel.find() : []
 
-
-
-
-
-//nodemon src/app.js  http://127.0.0.1:8080/products  // 
+        socket.broadcast.emit('alerta')
+        socket.emit('logs', messages)
+        socket.on('message', (data) => {
+            messages.push(data)
+            messageModel.create(messages)
+            io.emit('logs', messages)
+        })
+    })
+} catch (error) {
+    console.log(`Cannot connect to dataBase: ${error}`)
+    process.exit()
+}

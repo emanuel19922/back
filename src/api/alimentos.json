@@ -1,0 +1,2751 @@
+[
+	{
+		"id": 1,
+		"title": "Angus Snack Bastones de Esófago x 70 gr.",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 1099.99,
+		"thumbnails": [
+			"ruta-imagen-1.jpg",
+			"ruta-imagen-2.jpg"
+		],
+		"code": "7490354",
+		"category": "Golosinas",
+		"stock": 10,
+		"status": true
+	},
+	{
+		"id": 2,
+		"title": "Angus Snack Chips de Carne x 50 gr.",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 1499.99,
+		"thumbnails": [
+			"ruta-imagen-3.jpg",
+			"ruta-imagen-4.jpg"
+		],
+		"code": "8500095",
+		"category": "Golosinas",
+		"stock": 5,
+		"status": true
+	},
+	{
+		"id": 3,
+		"title": "Angus Snack Chips de Esófago x 70 grs.",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 349.99,
+		"thumbnails": [
+			"ruta-imagen-5.jpg",
+			"ruta-imagen-6.jpg"
+		],
+		"code": "7490025",
+		"category": "Golosinas",
+		"stock": 20,
+		"status": true
+	},
+	{
+		"id": 4,
+		"title": "Angus Snack de Hígado x 70 grs.",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 799.99,
+		"thumbnails": [
+			"ruta-imagen-7.jpg",
+			"ruta-imagen-8.jpg"
+		],
+		"code": "8500098",
+		"category": "Golosinas",
+		"stock": 15,
+		"status": true
+	},
+	{
+		"id": 5,
+		"title": "Angus Snack de Mondongo x 70 grs",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 299.99,
+		"thumbnails": [
+			"ruta-imagen-9.jpg",
+			"ruta-imagen-10.jpg"
+		],
+		"code": "8500105",
+		"category": "Golosinas",
+		"stock": 8,
+		"status": true
+	},
+	{
+		"id": 6,
+		"title": "Angus Snack de Pulmón x 50 grs",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2499.99,
+		"thumbnails": [
+			"ruta-imagen-11.jpg",
+			"ruta-imagen-12.jpg"
+		],
+		"code": "8500087",
+		"category": "Golosinas",
+		"stock": 3,
+		"status": true
+	},
+	{
+		"id": 7,
+		"title": "Angus Snack Hueso Fémur x 1 unidad",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 229.99,
+		"thumbnails": [
+			"ruta-imagen-13.jpg",
+			"ruta-imagen-14.jpg"
+		],
+		"code": "8500088",
+		"category": "Golosinas",
+		"stock": 12,
+		"status": true
+	},
+	{
+		"id": 8,
+		"title": "Angus Snack Oreja de Cerdo x 1 unidad",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 329.99,
+		"thumbnails": [
+			"ruta-imagen-15.jpg",
+			"ruta-imagen-16.jpg"
+		],
+		"code": "7490013",
+		"category": "Golosinas",
+		"stock": 7,
+		"status": true
+	},
+	{
+		"id": 9,
+		"title": "Angus Snack Rulo de Esófago x 3 unidades",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 1999.99,
+		"thumbnails": [
+			"ruta-imagen-17.jpg",
+			"ruta-imagen-18.jpg"
+		],
+		"code": "8500093",
+		"category": "Golosinas",
+		"stock": 4,
+		"status": true
+	},
+	{
+		"id": 10,
+		"title": "Better Bones - Hueso de Cordero/Menta 10 unidades",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7496032",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 11,
+		"title": "Better Bones - Hueso de Pollo/Romero/Tomillo 10 unidades",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7496027",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 12,
+		"title": "Better Bones - Hueso de Pollo/Romero/Tomillo 9 unidades",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7496028",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 13,
+		"title": "Better Bones - Huesos de Pollo/Cordero/Menta x 9 unidades",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7496031",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 14,
+		"title": "Better Bones - Palitos de Cordero/Pollo/Menta x 10 unidades",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7496030",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 15,
+		"title": "Better Bones - Palitos de Pollo/Romero/Tomillo x 10 unidades",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7496029",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 16,
+		"title": "Biscrok Multi x 100 grs.",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7493659",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 17,
+		"title": "Biscrok Multi x 500 grs.",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7493737",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 18,
+		"title": "Biscuit de Pollo x 500 grs.",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7490732",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 19,
+		"title": "Biscuit de Pollo x 120 grs.",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7494975",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 20,
+		"title": "Bocaditos de Carne, Pollo y Chocolate x 100 grs.",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7490327",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 21,
+		"title": "Bocaditos de Carne, Pollo y Chocolate x 500 grs.",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7490514",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 22,
+		"title": "Bocaditos de Chocolate con Leche x 100 grs.",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7494993",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 23,
+		"title": "Bocaditos de Chocolate con Leche x 500 grs.",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7491634",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 24,
+		"title": "Bocaditos de Banana x 2 kgs.",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7491039",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    
+    {
+		"id": 25,
+		"title": "Bocaditos de Carne x 2 kgs.",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7490012",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 26,
+		"title": "Bocaditos de Chocolate con Leche x 2 kgs.",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7490702",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 27,
+		"title": "Bocaditos de Pollo x 2 kgs.",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7490460",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 28,
+		"title": "Bocaditos Frutales x 100 grs.",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7494992",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 29,
+		"title": "Bocaditos Frutales x 500 grs.",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7495514",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 30,
+		"title": "Bocaditos de Jamón, Queso y Espinaca x 100 grs.",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7494991",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 31,
+		"title": "Bocaditos de Jamón, Queso y Espinaca x 500 grs.",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7491301",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 32,
+		"title": "Dental Care Golocan Mordida Chica x 8 unidades",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7491977",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 33,
+		"title": "Dental Care Golocan Mordida Mediana/Grande x 8 unidades",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7492283",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 34,
+		"title": "Dentastix L x 3 Sticks - 115.5 grs.",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7492475",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 35,
+		"title": "Dentastix L x 7 Sticks - 270 grs.",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7490318",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 36,
+		"title": "Dentastix M x 1 Stick.",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7491782",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 37,
+		"title": "Dentastix M x 3 Sticks.",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7491776",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 38,
+		"title": "Dentastix M x 7 Sticks.",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7493815",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 39,
+		"title": "Dentastix S x 1 Stick.",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7493658",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 40,
+		"title": "Dentastix S x 3 Sticks.",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7493523",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 41,
+		"title": "Dentastix S x 7 Sticks.",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7493732",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 42,
+		"title": "Dog Chow Salud Oral Medium/Large x 80 grs.",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7495959",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 43,
+		"title": "Dog Chow Salud Oral Small x 45 grs.",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7495960",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 44,
+		"title": "Eukanuba Activ Mobility Pouch x 142 grs.",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7495147",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 45,
+		"title": "Eukanuba Activ Trainers Pollo Pouch x 142 grs.",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7494600",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 46,
+		"title": "Eukanuba Activ Trainers Salmón Pouch x 142 grs.",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7494601",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 47,
+		"title": "Huesitos con Chips de Carne x 120 grs.",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7491230",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 48,
+		"title": "Huesitos con Chips de Carne x 500 grs.",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7494585",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 49,
+		"title": "Hueso de Cuero 10/11",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7493220",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 50,
+		"title": "Hueso de Cuero 11/12",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7493222",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 51,
+		"title": "Hueso de Cuero 12/13",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7494760",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 52,
+		"title": "Hueso de Cuero 13/14",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7494098",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 53,
+		"title": "Hueso de Cuero 3/4",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7495389",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 54,
+		"title": "Hueso de Cuero 4/5",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7495390",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 55,
+		"title": "Hueso de Cuero 5/6",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7495391",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 56,
+		"title": "Hueso de Cuero 6/7",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7495392",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 57,
+		"title": "Hueso de Cuero 7/8",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7495393",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 58,
+		"title": "Hueso de Cuero 8/9",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7495394",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 59,
+		"title": "Hueso de Cuero 9/10",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7495395",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 60,
+		"title": "Hueso Horneado Sabor Carne x 38 grs.",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7490363",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 61,
+		"title": "Mini Bocadito Carne, Pollo y Chocolate x 55 grs.",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7490229",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 62,
+		"title": "Mini Bocaditos Bajo en Grasas x 100 grs.",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7491927",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 63,
+		"title": "Mini Bocaditos Bajo en Sodio x 100 grs.",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7490160",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 64,
+		"title": "Natuplus de Carne x 200 ml.",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7490029",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 65,
+		"title": "Natuplus de Carne x 500 ml.",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7494473",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 66,
+		"title": "Natuplus de Cerdo x 200 ml.",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7490485",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 67,
+		"title": "Natuplus de Cerdo x 500 ml.",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7491752",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 68,
+		"title": "Natuplus Condimento de Hígado x 250 ml.",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7494710",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 69,
+		"title": "Natuplus Condimento de Pollo x 250 ml.",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7494732",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 70,
+		"title": "Natuplus Condimento Mix de Carnes x 250 ml.",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7495023",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 71,
+		"title": "Natuplus Condimento de Pescado x 250 ml.",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7491025",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 72,
+		"title": "Natuplus de Hígado x 200 ml.",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7494355",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 73,
+		"title": "Natuplus de Hígado x 500 ml.",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7494472",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 74,
+		"title": "Natuplus de Pescado x 200 ml.",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7494102",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 75,
+		"title": "Natuplus de Pescado x 500 ml.",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7494482",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 76,
+		"title": "Natuplus de Pollo x 200 ml.",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7492186",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 77,
+		"title": "Natuplus de Pollo x 500 ml.",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7494466",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 78,
+		"title": "Natuplus de Carne x 80 grs.",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7492599",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 79,
+		"title": "Palitos de Cuero x 200 unidades.",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7000951",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 80,
+		"title": "Palitos de Pollo x 450 grs.",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7490583",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 81,
+		"title": "Palitos de Pollo x 80 grs.",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7492416",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 82,
+		"title": "Rodeo Carne x 4 Sticks",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7490036",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 83,
+		"title": "Rodeo Pollo x 4 Sticks",
+		"description": "Los Snacks Angus son ultra naturales y súper recomendables para tu mascota. Con diversas variedades, disfrutará distintos sabores y sobre todo estará ingiriendo un snack  sano y con ingredientes especialmente seleccionados.",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7491732",
+		"category": "Golosinas",
+		"stock": 6,
+		"status": true
+	},
+
+    {
+		"id": 84,
+		"title": "MV Articular Perros x 10 kg.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7491868",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 85,
+		"title": "MV Articular Perros x 2 kg.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7490468",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 86,
+		"title": "MV Cardíaco Perros x 10 kg.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7493353",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 87,
+		"title": "MV Cardíaco Perros x 2 kg.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7493352",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 88,
+		"title": "MV Gastrointestinal Perros x 10 kg.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7493355",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 89,
+		"title": "MV Gastrointestinal Perros x 2 kg.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7493354",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 90,
+		"title": "MV Obesidad Perros x 10 kg.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7493461",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 91,
+		"title": "MV Obesidad Perros x 2 kg.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7493476",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 92,
+		"title": "MV Renal Perros x 10 kg.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7493357",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 93,
+		"title": "MV Renal Perros x 2 kg.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7493356",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 94,
+		"title": "MV Sensibilidad Dietaria Perros x 10 kg.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7490461",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 95,
+		"title": "MV Sensibilidad Dietaria Perros x 2 kg.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "749047",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 96,
+		"title": "ProPlan CC (Cardíaco) Cardio Care Canine x 7.5 kg.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7493016",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 97,
+		"title": "ProPlan EN Gastroenteric Canine x 2 kg.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7495016",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 98,
+		"title": "ProPlan EN Gastroenteric Canine x 7.5 kg.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7492739",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 99,
+		"title": "ProPlan JM Joint Mobility Canine x 2 kg.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7495036",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 100,
+		"title": "ProPlan JM Joint Mobility Canine x 7.5 kg.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7495032",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 101,
+		"title": "ProPlan NC Neurocare Canine x 2 kg.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7495039",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 102,
+		"title": "ProPlan NC Neurocare Canine x 7.5 kg.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7495076",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 103,
+		"title": "ProPlan NF (Renal) Kidney Function Canine x 7.5 kg.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7491732",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 104,
+		"title": "ProPlan NF (Renal) Kidney Function Canine x 2 kg.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7495017",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 105,
+		"title": "ProPlan OM (Obesidad) Overweight M Canine x 2 kg.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7495024",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 106,
+		"title": "ProPlan OM (Obesidad) Overweight M Canine x 7.5 kg.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7492807",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 107,
+		"title": "ProPlan UR Urinary Canine x 7.5 kg.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7495027",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 108,
+		"title": "Royal Canin Dog Calm x 2 kg.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7491532",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 109,
+		"title": "Royal Canin Dog Cardiac x 10 kg.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "8000228",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 110,
+		"title": "Royal Canin Dog Cardiac x 2 kg.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "8000219",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 111,
+		"title": "Royal Canin Dog Diabetic x 2 kg.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7490500",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 112,
+		"title": "Royal Canin Dog Diabetic Lata x 1 unidad.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7491565",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 113,
+		"title": "Royal Canin Dog Diabetic Lata x 6 unidades.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7491668",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 114,
+		"title": "Royal Canin Dog Diabetic x 10 kgs.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7490505",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 115,
+		"title": "Royal Canin Dog Gastro Low Fat Lata x 1 unidad.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7492847",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 116,
+		"title": "Royal Canin Dog Gastro Moderate Calories x 10 kgs.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7492259",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 117,
+		"title": "Royal Canin Dog Gastro Puppy Lata x 1 unidad.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7495967",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 118,
+		"title": "Royal Canin Dog Gastro Puppy Lata x 6 unidades.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7494649",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 119,
+		"title": "Royal Canin Dog Gastro Low Fat Lata x 6 unidades.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7492869",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 120,
+		"title": "Royal Canin Dog Gastrointestinal x 2 kgs.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7492247",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 121,
+		"title": "Royal Canin Dog Gastrointestinal Junior x 2 kg.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7492192",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 122,
+		"title": "Royal Canin Dog Gastrointestinal Lata x 1 unidad.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7492824",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 123,
+		"title": "Royal Canin Dog Gastrointestinal Lata x 6 unidades.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7492846",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 124,
+		"title": "Royal Canin Dog Gastrointestinal Low Fat x 1.5 kgs.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7494377",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 125,
+		"title": "Royal Canin Dog Gastrointestinal x 10 kg.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7492249",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 126,
+		"title": "Royal Canin Dog Hepati x 1.5 kgs.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7490479",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 127,
+		"title": "Royal Canin Dog Hepatic Lata x 6 unidades.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7492823",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 128,
+		"title": "Royal Canin Dog Hepatic x 10 kgs.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "8000232",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 129,
+		"title": "Royal Canin Dog Hepatic Lata x 1 unidad.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7492821",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 130,
+		"title": "Royal Canin Dog Hypoallergenic Lata x 1 unidad.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7492871",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 131,
+		"title": "Royal Canin Dog Hypoallergenic Lata x 6 unidades.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7492901",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 132,
+		"title": "Royal Canin Dog Hypoallergenic x 2 kgs.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "652492",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 133,
+		"title": "Royal Canin Dog Hypoallergenic MC x 2 kgs.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7496054",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 134,
+		"title": "Royal Canin Dog Hypoallergenic x 10 kgs.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "8000224",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 135,
+		"title": "Royal Canin Dog Mobility x 2 kgs.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "8000233",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 136,
+		"title": "Royal Canin Dog Mobility Large x 15 kgs.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7492550",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 137,
+		"title": "Royal Canin Dog Mobility x 10 kgs.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "8000234",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 138,
+		"title": "Royal Canin Dog Renal x 1.5 kgs.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "652491",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 139,
+		"title": "Royal Canin Dog Lata x 6 unidades",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7491625",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 140,
+		"title": "Royal Canin Dog Renal x 1 unidad.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7493622",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 141,
+		"title": "Royal Canin Dog Renal Líquido x 3 unidades.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7491795",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 142,
+		"title": "Royal Canin Dog Renal Special x 2 kgs.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7494599",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 143,
+		"title": "Royal Canin Dog Renal Special Lata x 1 unidad.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7495134",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 144,
+		"title": "Royal Canin Dog Renal Special Lata x 3 unidades.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7495133",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 145,
+		"title": "Royal Canin Dog Renal Lata x 1 unidad.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7491864",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 146,
+		"title": "Royal Canin Dog Renal x 10 kgs.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "8000217",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 147,
+		"title": "Royal Canin Dog Satiety Support x 1.5 kgs.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7494062",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 148,
+		"title": "Royal Canin Dog Satiety Support x 15 kgs.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7494433",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 149,
+		"title": "Royal Canin Dog Satiety Suport 7.5 kgs.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7494063",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 150,
+		"title": "Royal Canin Dog Satiety Weight M Lata x 1 unidad.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7495141",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 151,
+		"title": "Royal Canin Dog Satiety Weight M Lata x 6 unidades.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7495144",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 152,
+		"title": "Royal Canin Dog Small Hypoallergenic x 2 kgs.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7493874",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 153,
+		"title": "Royal Canin Dog Small Satiety Support x 1.5 kgs.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7491294",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 143,
+		"title": "Royal Canin Dog Urinary x 1.5 kgs.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "74954233",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+
+
+    {
+		"id": 144,
+		"title": "Royal Canin Dog Urinary S/O Lata x 6 unidades.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7490770",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 145,
+		"title": "Royal Canin Dog Urinary S/O Lata x 1 unidad.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7490794",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 146,
+		"title": "Royal Canin Dog Urinary x 10 kgs.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "8000227",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 147,
+		"title": "Royal Canin Dog/Cat Recovery Lata x 1 unidad.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7493041",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 148,
+		"title": "Royal Canin Dog/Cat Recovery Lata x 12 unidades.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7493178",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 149,
+		"title": "Royal Canin Dog/Cat Recovery Liquid x 1 unidad.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7491098",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 150,
+		"title": "Royal Canin Dog/Cat Recovery Liquid x 3 unidades.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7491827",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 151,
+		"title": "Therapy Cardiac Perros 10 kgs.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7496021",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 152,
+		"title": "Therapy Cardiac Perros x 2 kgs.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7494890",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 153,
+		"title": "Therapy Gastrointestinal Perros x 10 kgs.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7490210",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 154,
+		"title": "Therapy Gastrointestinal Perros x 2 kgs.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7494926",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 155,
+		"title": "Therapy Hypoallergenic Perros x 2 kgs.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7494972",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 156,
+		"title": "Therapy Hypoallergenic Perros x 10 kgs.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7490558",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 157,
+		"title": "Therapy Mobility Perros x 2 kgs.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7494721",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 158,
+		"title": "Therapy Mobility Perros x 15 kgs.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7495516",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 159,
+		"title": "Therapy Obesity Perros x 2 kgs.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7495004",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 160,
+		"title": "Therapy Renal Perros x 10 kgs.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7494871",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 161,
+		"title": "Therapy Renal Perros x 2 kgs.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7494866",
+		"category": "Dieta Prescripta",
+		"stock": 6,
+		"status": true
+	},
+
+    {
+		"id": 162,
+		"title": "Pedigree Adult Small Pouch Pollo x 100 grs.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7491704",
+		"category": "Húmedos",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 163,
+		"title": "Pedigree Adulto Carne Lata x 340 grs.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7490333",
+		"category": "Húmedos",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 164,
+		"title": "Pedigree Adulto Pollo Lata x 340 grs.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7493857",
+		"category": "Húmedos",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 165,
+		"title": "Pedigree Adulto Pouch Carne x 100 grs.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "8001369",
+		"category": "Húmedos",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 166,
+		"title": "Pedigree Adulto Pouch Pollo x 100 grs.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "8001331",
+		"category": "Húmedos",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 167,
+		"title": "Pedigree Adulto Small Pouch Carne x 100 grs.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7491027",
+		"category": "Húmedos",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 168,
+		"title": "Pedigree Adulto Pollo Lata x 340 grs.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7493857",
+		"category": "Húmedos",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 169,
+		"title": "Pedigree Adulto Pouch Carne x 100 grs.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "8001369",
+		"category": "Húmedos",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 170,
+		"title": "Pedigree Senior Pouch Carne x 100 grs.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7491624",
+		"category": "Húmedos",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 171,
+		"title": "Pro Plan Dog Adult Pouch x 1 unidad",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7493559",
+		"category": "Húmedos",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 172,
+		"title": "Royal Canin Dog Caniche Adult x 1 pouch.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7493274",
+		"category": "Húmedos",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 173,
+		"title": "Royal Canin Dog Caniche Adult x 12 pouchs.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7493261",
+		"category": "Húmedos",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 174,
+		"title": "Royal Canin Dog Dachshund Adult x 1 pouch.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7491249",
+		"category": "Húmedos",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 175,
+		"title": "Royal Canin Dog Daschshund Adult x 12 pouchs.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7491248",
+		"category": "Húmedos",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 176,
+		"title": "Royal Canin Dog Dermacomfort x 1 pouch.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7495483",
+		"category": "Húmedos",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 177,
+		"title": "Royal Canin Dog Dermacomfort x 12 pouchs.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7495484",
+		"category": "Húmedos",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 178,
+		"title": "Royal Canin Dog Diabetic Lata x 1 unidad.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7491565",
+		"category": "Húmedos",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 179,
+		"title": "Royal Canin Dog Diabetic Lata x 6 unidades.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7491668",
+		"category": "Húmedos",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 180,
+		"title": "Royal Canin Dog Exigent x 1 pouch.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7495485",
+		"category": "Húmedos",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 181,
+		"title": "Royal Canin Dog Exigent x 12 pouchs.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7493645",
+		"category": "Húmedos",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 182,
+		"title": "Royal Canin Dog Gastro Low Fat Lata x 1 unidad.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7492847",
+		"category": "Húmedos",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 183,
+		"title": "Royal Canin Dog Gastro Puppy Lata x 1 unidad.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7495967",
+		"category": "Húmedos",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 184,
+		"title": "Royal Canin Dog Gastro Puppy Lata x 6 unidades.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7494649",
+		"category": "Húmedos",
+		"stock": 6,
+		"status": true
+	},
+    {
+		"id": 185,
+		"title": "Royal Canin Dog Gastro Low Fat Lata x 6 unidades.",
+		"description": "",
+		"price": 2399.99,
+		"thumbnails": [
+			"ruta-imagen-19.jpg",
+			"ruta-imagen-20.jpg"
+		],
+		"code": "7492869",
+		"category": "Húmedos",
+		"stock": 6,
+		"status": true
+	}
+]

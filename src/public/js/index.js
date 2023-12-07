@@ -1,113 +1,133 @@
 const socket = io()
 
+const form = document.getElementById('form')
+const productsTable = document.querySelector('#productsTable')
+const tbody = productsTable.querySelector('#tbody')
 
-const form = document.querySelector('#form')
-const containerPoducts = document.querySelector('#containerPoducts')
+const title = document.querySelector('#title')
+const description = document.querySelector('#description')
+const price = document.querySelector('#price')
+const code = document.querySelector('#code')
+const category = document.querySelector('#category')
+const stock = document.querySelector('#stock')
 
 
 form.addEventListener('submit', async (e) => {
     e.preventDefault()
 
-    let products = {
-        title: document.querySelector('#title').value,
-        description: document.querySelector('#description').value,
-        price: document.querySelector('#price').value,
-        code: document.querySelector('#code').value,
-      //  thumbnail: document.querySelector('#thumbnail'),
-        stock: document.querySelector('#stock').value,
+    let product = {
+        title: title.value,
+        description: description.value,
+        price: price.value,
+        code: code.value,
+        category: category.value,
+        stock: stock.value,
     }
-    console.log(products.thumbnail)
 
-    
-
-    //  usamos un fetch para poder enviar la data del formulario 
-    //pega en el endpoint post de api
+    // Enviar el producto al servidor
     const res = await fetch('/api/products', {
         method: 'POST',
-        body: JSON.stringify(products),
+        body: JSON.stringify(product),
         headers: {
             'Content-Type': 'application/json',
-        }
-
-
+        },
     })
 
     try {
-        const resultProducts = await fetch('/api/products')
-
-        const results = await resultProducts.json()
-
-        if (results.status === 'error') {
-            throw new Error(results.error)
+        const result = await res.json()
+        if (result.status === 'error') {
+            throw new Error(result.error)
         } else {
-            //soceket emit para enviar prod en realtmie
-            socket.emit('productList', results)
+            // Obtener la lista actualizada de productos desde el servidor
+            const resultProducts = await fetch('/api/products?limit=100')
+            const results = await resultProducts.json()
+            if (results.status === 'error') {
+                throw new Error(results.error)
+            } else {
+                // Emitir el evento "productList" con la lista de productos actualizada
+                socket.emit('productList', results.payload)
 
+                // Mostrar notificación de éxito
+                Toastify({
+                    text: "Producto agregado exitosamente",
+                    duration: 2000,
+                    newWindow: true,
+                    close: true,
+                    gravity: 'top',
+                    position: 'right',
+                    stopOnFocus: true,
+                    style: {
+                        background: "#7dd56f",
+                        borderRadius: "10px",
+                        fontWeight: "600",
+                    },
+                    onClick: function(){}
+                }).showToast()
 
-            document.querySelector('#title').value = ""
-            document.querySelector('#description').value = ""
-            document.querySelector('#price').value = ""
-            document.querySelector('#code').value = ""
-            document.querySelector('#thumbnail').value  = ""
-                document.querySelector('#stock').value = ""
+                // Restablecer los campos del formulario
+                title.value = ''
+                description.value = ''
+                price.value = ''
+                code.value = ''
+                category.value = ''
+                stock.value = ''
+            }
         }
-
-
     } catch (error) {
         console.log(error)
-
     }
-
-
 })
 
-
-
+// Función para eliminar un producto
 const deleteProduct = async (id) => {
-
     try {
-        //enviamos  con el metodo delet a api/products recivimos y enviamos con emit a ppp.js para que haga la carla en vivo
         const res = await fetch(`/api/products/${id}`, {
-
-            method: 'DELETE'
-
+            method: 'DELETE',
         })
-
         const result = await res.json()
-
         if (result.status === 'error') throw new Error(result.error)
-        else socket.emit('productList', result.res)
+        else socket.emit('productList', result.products)
 
-
+        // Mostrar notificación de éxito
+        Toastify({
+            text: 'Producto eliminado exitosamente',
+            duration: 2000,
+            newWindow: true,
+            close: true,
+            gravity: 'bottom',
+            position: 'right',
+            stopOnFocus: true,
+            style: {
+                background: "#E93C3C",
+                borderRadius: "10px",
+                fontWeight: "600",
+            },
+            onClick: function(){}
+        }).showToast()
     } catch (error) {
         console.log(error)
     }
-
-
 }
 
+// Escuchar el evento 'updatedProducts' emitido por el servidor
+socket.on('updatedProducts', (products) => {
+  // Limpiar el contenido de tbody
+    tbody.innerHTML = ""
 
-
-socket.on('allproducts', data => {
-    containerPoducts.innerHTML = ""
-
-    data.map(element => {
-        containerPoducts.innerHTML += ` 
-        <br>${element.id}<br>
-           <br>${element.title}<br>
-           <img  src="${element.thumbnail}" alt="" />
-           <br>${element.description}<br>
-           <br>${element.price}<br>
-           <br>${element.code}<br>
-           <br>${element.stock}<br>
-       
-           <button id="btnDelet" onclick="deleteProduct(${element.id}) "> eliminar </button>
-           
-           `
-    });
-
-
+    // Agregar los nuevos productos a tbody
+    products.forEach((item) => {
+        const tr = document.createElement("tr")
+        tr.innerHTML = `
+            <td>${item.title}</td>
+            <td>${item.description}</td>
+            <td>${item.price}</td>
+            <td>${item.code}</td>
+            <td>${item.category}</td>
+            <td>${item.stock}</td>
+            <td>
+                <button class="btn btn-danger" onclick="deleteProduct('${item._id}')" id="btnDelete">Eliminar</button>
+            </td>
+        `
+        tbody.appendChild(tr)
+    })
 })
-
-
-

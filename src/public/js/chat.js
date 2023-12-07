@@ -1,81 +1,58 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const chatBox = document.getElementById('chatBox')
+let chatBox = document.getElementById('chatBox')
 
-    const userDisplay = document.getElementById('user')
+Swal.fire({
+    title: 'Autenticación',
+    input: 'text',
+    text: 'Establecer nombre de usuario para el Chat',
+    inputValidator: (value) => {
+        return !value.trim() && 'Ingrese un nombre de usuario válido'
+    },
+    allowOutsideClick: false,
+}).then((result) => {
+    user = result.value
+    document.getElementById('user').innerHTML = `<b>${user}: </b>`
+    let socket = io()
 
-    const messagesLogs = document.getElementById('messagesLogs')
-
-
-    const setUsername = async () => {
-        const { value: username } = await Swal.fire({
-            title: 'Autenticación',
-            input: 'text',
-            text: 'Establecer nombre de usuario para el Chat',
-            inputValidator: (value) => {
-                return (
-                !value.trim() && 'Por favor, escriba un nombre de usuario válido'
-                )
-            },
-            allowOutsideClick: false,
-        })
-
-        userDisplay.innerHTML = `<b>${username}: </b>`
-
-        return username
-    }
-
-    const initSocket = (username) => {
-
-        const socket = io()
-
-        chatBox.addEventListener('keyup', (event) => {
-
-            console.log(event)
-            if (event.key === 'Enter' && chatBox.value.trim().length > 0) {
-
-                const newMessage = {
-
-                    user: username,
+    chatBox.addEventListener('keyup', (event) => {
+        if (event.key === 'Enter') {
+            if (chatBox.value.trim().length > 0) {
+                let newMessage = {
+                    user,
                     message: chatBox.value,
-                    
                 }
                 socket.emit('message', newMessage)
 
                 chatBox.value = ''
             }
+        }
+    })
+
+    socket.on('logs', (data) => {
+        const divLogs = document.getElementById('messagesLogs')
+        let messages = ''
+        data.reverse().forEach((message) => {
+            messages += ` <div class="bg-secondary p-2 my-2 rounded-2">
+                <p><i>${message.user}</i>: ${message.message}</p>
+            </div>`
         })
+        divLogs.innerHTML = messages
+    })
 
-        socket.on('logs', (data) => {
-            const messagesHTML = data
-                .reverse()
-                .map((message) => {
-                    return `<div class='bg-secondary p-2 my-2 rounded-2'>
-                                <p><i>${message.user}</i>: ${message.message}</p>
-                            </div>`
-                })
-                .join('')
-
-            messagesLogs.innerHTML = messagesHTML
-        })
-
-        socket.on('alerta', () => {
-            Toastify({
-                text: 'Un nuevo cliente conectado',
-                duration: 1500,
-                newWindow: true,
-                close: true,
-                gravity: 'top',
-                position: 'right',
-                stopOnFocus: true,
-                style: {
+    socket.on('alerta', () => {
+        Toastify({
+            text: "Nuevo usuario conectado",
+            duration: 1500,
+            newWindow: true,
+            close: true,
+            gravity: "top",
+            position: "right",
+            stopOnFocus: true,
+            style: {
                 background: "#7dd56f",
                 background: "-webkit-linear-gradient(to right, #28b487, #7dd56f)",
                 background: "linear-gradient(to right, #28b487, #7dd56f)",
-                },
-                onClick: function () {},
-            }).showToast()
-        })
-    }
-
-    setUsername().then((username) => initSocket(username))
+            },
+            onClick: function () {},
+        }).showToast()
+    })
 })
