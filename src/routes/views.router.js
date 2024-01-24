@@ -1,109 +1,53 @@
-import { Router } from 'express'
-import productModel from '../dao/models/products.model.js'
-import messageModel from '../dao/models/messages.model.js'
-import cartModel from '../dao/models/carts.model.js'
+import appRouter from './router.js'
+import {
+    getProductsViewsController,
+    getRealTimeProductsController,
+    getChatController,
+    getProductsByIdViewController,
+    getCartViewController,
+} from '../controllers/view.controller.js'
 
-const router = Router()
+// Constantes para roles
+const USER_ROLE = 'USER'
+const ADMIN_ROLE = 'ADMIN'
 
-router.get('/', async (req, res) => {
-    try {
-        const limit = parseInt(req.query.limit) || 10
-        const page = parseInt(req.query.page) || 1
-        const sort = req.query.sort || ''
-        const category = req.query.category || ''
-        const stock = parseInt(req.query.stock) || ''
+export default class ViewsProductsRouter extends appRouter {
+    init() {
+        // Rutas
+        const productsRoute = '/'
+        const realTimeProductsRoute = '/realTimeProducts'
+        const chatRoute = '/chat'
+        const productByIdRoute = '/product/:pid'
+        const cartRoute = '/carts/:cid'
 
-        /* let filter = {}
-        
-        if (req.query.category) {
-            filter = { category }
-        }
-        
-        if (req.query.stock) {
-            filter = { ...filter, stock: availability }
-        } */
-        
-        const filter = {
-            ...(category && { category }),
-            ...(stock && { stock }),
-        }
+        // Controladores
+        const productsController = getProductsViewsController
+        const realTimeProductsController = getRealTimeProductsController
+        const chatController = getChatController
+        const productByIdController = getProductsByIdViewController
+        const cartController = getCartViewController
 
-        let sortOptions = sort === 'asc' ? { price: 1 } : (sort === 'desc' ? { price: -1 } : {})
-        
-        /* if (sort === 'asc') {
-            sortOptions = { price: 1 }
-        } else if (sort === 'desc') {
-            sortOptions = { price: -1 }
-        }*/
-
-        const options = {
-            limit,
-            page,
-            sort: sortOptions,
-            lean: true,
-        } 
-                
-        const products = await productModel.paginate(filter, options)
-
-        res.render('products', { products })
-    } catch (error) {
-        console.log(error)
-        res.status(500).json({ error: error.message })
+        // Definir rutas
+        this.get(productsRoute, [USER_ROLE, ADMIN_ROLE], productsController)
+        this.get(realTimeProductsRoute, [ADMIN_ROLE], realTimeProductsController)
+        this.get(chatRoute, [USER_ROLE], chatController)
+        this.get(productByIdRoute, [USER_ROLE, ADMIN_ROLE], productByIdController)
+        this.get(cartRoute, [USER_ROLE, ADMIN_ROLE], cartController)
     }
-})
+}
 
-router.get('/realTimeProducts', async (req, res) => {
-    try {
-        const allProducts = await productModel.find().lean().exec()
-        res.render('realTimeProducts', { allProducts: allProducts })
-    } catch (error) {
-        console.log(error)
-        res.status(500).json({ error: error.message })
+
+/* export default class ViewsProductsRouter extends appRouter {
+    init() {
+        this.get('/', ['USER', 'ADMIN'], getProductsViewsController)
+
+        this.get('/realTimeProducts', ['ADMIN'], getRealTimeProductsController)
+
+        this.get('/chat', ['USER'], getChatController)
+
+        this.get('/product/:pid', ['USER', 'ADMIN'], getProductsByIdViewController)
+
+        this.get('/carts/:cid', ['USER', 'ADMIN'], getCartViewController)
     }
-})
-
-router.get('/chat', async (req, res) => {
-    try {
-        const messages = await messageModel.find().lean().exec()
-        res.render('chat', { messages })
-    } catch (error) {
-        console.log(error)
-        res.status(500).json({ error: error.message })
-    }
-})
-
-router.get('/product/:pid', async (req, res) => {
-    try {
-        const pid = req.params.pid
-        const product = await productModel.findById(pid).lean().exec()
-        res.render('product', { product })
-        if (product === null) {
-            return res.status(404).json({ error: 'The product does not exist' })
-        }
-    } catch (error) {
-        console.log(error)
-        res.status(500).json({ error: error.message })
-    }
-})
-
-router.get('/carts/:cid', async (req, res) => {
-    try {
-        const cid = req.params.cid
-        const cart = await cartModel.findById(cid).lean().exec()
-        if ((cart === null) || (cart.products.length === 0)) {
-            const emptyCart = 'Cart Empty'
-            req.app.get('socketio').emit('updatedCarts', cart.products)
-            return res.render('carts', { emptyCart })
-        }
-        const carts = cart.products
-        req.app.get('socketio').emit('updatedCarts', carts)
-
-        res.render('carts', { carts })
-
-    } catch (error) {
-        console.log(error)
-        res.status(500).json({ error: error.message })
-    }
-})
-
-export default router
+}
+ */
