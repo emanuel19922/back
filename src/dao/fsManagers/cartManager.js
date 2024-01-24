@@ -3,6 +3,7 @@ import { __dirname } from "../../utils.js"
 import { productManager } from "./productManager.js"
 
 class CartManager {
+    ///emaaaaa
     #path
     #format
     constructor(path) {
